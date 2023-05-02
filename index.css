@@ -1,0 +1,45 @@
+/* Image Slider */
+.slider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .slide {
+    display: none;
+    flex-shrink: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .slide.active {
+    display: block;
+  }
+  
+  .slide img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .customer-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .customer-review {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .rating {
+    margin-bottom: 20px;
+  }
+  
+  .rating i {
+    font-size: 24px;
+    color: #ffc
+  }  
