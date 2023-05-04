@@ -48,3 +48,15 @@
     max-width: 50px;
     max-height: 50px;
   }
+
+  .gradient-text {
+    background: linear-gradient(90deg, #FDD835, #FFEB3B, #FFC107);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .outline-text {
+    color: #fff;
+    text-shadow: 0 0 10px #FDD835, 0 0 20px #FFEB3B, 0 0 30px #FFC107;
+  }
