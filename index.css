@@ -43,3 +43,8 @@
     font-size: 24px;
     color: #ffc
   }  
+
+  .payment-icon {
+    max-width: 50px;
+    max-height: 50px;
+  }
