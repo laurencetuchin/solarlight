@@ -60,3 +60,47 @@
     color: #fff;
     text-shadow: 0 0 10px #FDD835, 0 0 20px #FFEB3B, 0 0 30px #FFC107;
   }
+
+
+  /* Earthy tones theme 
+  Olive green #556B2F
+  Rust brown #8B3A3A
+  Terra cotta #E2725B
+  Deep mustard #B78E3B
+  Burnt orange #CC5500 */
+  
+  #hero {
+    background-color: #556B2F;
+  }
+  #solar-power {
+    background-color: #CC5500;
+  }
+  /* #lighting-effects {
+
+  } */
+  #easy-insertion {
+    background-color: #B78E3B;
+  }
+  #flexible-shaping {
+    background-color: #556B2F;
+  }
+  #automatically-turning-on {
+    background-color: #B78E3B;
+  }
+  /* #ip65-waterproofing {
+    background-color: #B78E3B;
+  } */
+  #multifunctional {
+    background-color: #E2725B;
+  }
+  #purchase {
+    background-color: #8eb24f;
+  }
+
+  #light-up-header:hover, #light-up-button:hover   {
+    text-shadow: 0 0 10px #FDD835, 0 0 20px #FFEB3B, 0 0 30px #FFC107;
+    background: linear-gradient(90deg, #FDD835, #FFEB3B, #FFC107);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
