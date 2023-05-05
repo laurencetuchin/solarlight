@@ -6,13 +6,13 @@
     <meta charset="utf-8">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 	<link rel="stylesheet" href="index.css">
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
   <script src="https://kit.fontawesome.com/5368df8446.js" crossorigin="anonymous"></script>
 
+  
 </head>
 <body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-
     <!-- <h1>Magical Outdoor Ambience in Seconds</h1> -->
     <!-- Navbar -->
     <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
@@ -59,26 +59,50 @@
       </nav>
 
     
-    <!-- Hero -->
 
-    <section id="hero" class="hero-section  py-5">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6 mb-4 mb-md-0 mt-2">
-            <img src="images\solarlighthero.webp" class="img-fluid" alt="Solar Outdoor Light">
-          </div>
-          <div class="col-md-4">
-            <h1 class="mb-4 text-light" id="light-up-header">Light Up Your Night with Solar Outdoor Light</h1>
-            <p class="mb-4 text-light">Say goodbye to expensive electricity bills and hello to the beauty and convenience of solar-powered outdoor lights. Our lights are easy to install, weather-resistant, and come in a variety of styles to match any outdoor decor. Whether you want to illuminate your garden, patio, or driveway, Solar Outdoor Light has got you covered.</p>
-            <a href="#purchase" class="btn btn-primary btn-lg mb-4">Get Yours Now 👉</a>
-            <p class=" text-light"><small><strong>100% Satisfaction Guaranteed</strong></small></p>
-          </div>
-        </div>
+<!-- Hero section -->
+
+<section id="hero" class="hero-section py-5 bg-dark">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 mb-4 mb-md-0 mt-2">
+        <img src="images/solarlighthero.webp" class="img-fluid" alt="Solar Outdoor Light">
       </div>
-    </section>
-    
+      <div class="col-md-4">
+        <h1 class="mb-4 text-light" id="light-up-header">Light Up Your Night with Solar Outdoor Light</h1>
+        <p class="mb-4 text-light">Say goodbye to expensive electricity bills and hello to the beauty and convenience of solar-powered outdoor lights. Our lights are easy to install, weather-resistant, and come in a variety of styles to match any outdoor decor. Whether you want to illuminate your garden, patio, or driveway, Solar Outdoor Light has got you covered.</p>
+        <div class="price-info mb-4">
+          <h2 class="text-light">Price: <s>$80.00</s>  <span class="sale-price">$39.99</span></h2>
+          <p class="text-danger"><strong>Hurry! Limited Time Offer:</strong> for the next <span class="countdown-timer">10:00</span> minutes</p>
+          <p class="text-light">You Save: <span class="text-success">$40.01 (50% OFF)</span></p>
+        </div>
+        
+        <a href="#purchase" class="btn btn-primary btn-lg mb-4">Get Yours Now 👉 <i class="fas fa-angle-right"></i></a>
+        <p class="text-light"><small><i class="fas fa-map-marker-alt"></i> Designed in the USA | <i class="fas fa-money-bill-wave"></i> 30-Day Money Back Guarantee | <i class="fas fa-shield-alt"></i> Lifetime Warranty</small></p>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-md-4 mb-4 mb-md-0">
+        <div class="feature-icon"><i class="fas fa-sun"></i></div>
+        <h3 class="text-light">Efficient Solar Technology</h3>
+        <p class="text-light">Our lights are powered by efficient solar panels that convert sunlight into electricity, saving you money on your energy bill while reducing your carbon footprint.</p>
+      </div>
+      <div class="col-md-4 mb-4 mb-md-0">
+        <div class="feature-icon"><i class="fas fa-wrench"></i></div>
+        <h3 class="text-light">Easy to Install</h3>
+        <p class="text-light">Our lights are designed for easy installation, with no wires or complicated setup required. Simply place them where you want them and let the sun do the rest.</p>
+      </div>
+      <div class="col-md-4">
+        <div class="feature-icon"><i class="fas fa-globe"></i></div>
+        <h3 class="text-light">Weather-Resistant</h3>
+        <p class="text-light">Our lights are built to withstand the elements, with weather-resistant materials that ensure they can handle rain, snow, and extreme temperatures.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-    
+
+
 
     <!-- How to use -->
     <section id="how-to-use" class="py-5 bg-light">

@@ -69,9 +69,9 @@
   Deep mustard #B78E3B
   Burnt orange #CC5500 */
   
-  #hero {
+  /* #hero {
     background-color: #556B2F;
-  }
+  } */
   #solar-power {
     background-color: #CC5500;
   }
@@ -104,3 +104,4 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+
