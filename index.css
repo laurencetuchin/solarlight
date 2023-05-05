@@ -72,13 +72,13 @@
   /* #hero {
     background-color: #556B2F;
   } */
-  #solar-power {
+  /* #solar-power {
     background-color: #CC5500;
-  }
+  } */
   /* #lighting-effects {
 
   } */
-  #easy-insertion {
+  /* #easy-insertion {
     background-color: #B78E3B;
   }
   #flexible-shaping {
@@ -87,15 +87,13 @@
   #automatically-turning-on {
     background-color: #B78E3B;
   }
-  /* #ip65-waterproofing {
-    background-color: #B78E3B;
-  } */
-  #multifunctional {
+  /* #ip65-waterproofing { */
+  /* #multifunctional {
     background-color: #E2725B;
   }
   #purchase {
     background-color: #8eb24f;
-  }
+  } */
 
   #light-up-header:hover, #light-up-button:hover   {
     text-shadow: 0 0 10px #FDD835, 0 0 20px #FFEB3B, 0 0 30px #FFC107;
