@@ -95,7 +95,7 @@
     background-color: #8eb24f;
   } */
 
-  #light-up-header:hover, #light-up-button:hover   {
+  #light-up-header:hover, #light-up-button:hover  {
     text-shadow: 0 0 10px #FDD835, 0 0 20px #FFEB3B, 0 0 30px #FFC107;
     background: linear-gradient(90deg, #FDD835, #FFEB3B, #FFC107);
     background-clip: text;
@@ -103,3 +103,45 @@
     -webkit-text-fill-color: transparent;
   }
 
+  #buy-now-light-up {
+    text-shadow: 0 0 10px #fdd835, 0 0 20px #ffeb3b, 0 0 30px #ffc107;
+    background: linear-gradient(90deg, #fdd835, #ffeb3b, #ffc107);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #buy-now-light-up:hover {
+    text-shadow: 0 0 40px #fdd835, 0 0 30px #ffeb3b, 0 0 40px #ffc107;
+    background: linear-gradient(90deg, #fdd835, #ffeb3b, #ffc107);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+
+  #buy-now-light-up {
+    text-shadow: 0 0 10px #FDD835, 0 0 20px #FFEB3B, 0 0 30px #FFC107;
+    background: linear-gradient(90deg, #FDD835, #FFEB3B, #FFC107);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: light-up 4s ease-in-out infinite;
+  }
+  
+  @keyframes light-up {
+    0% {
+      text-shadow: 0 0 10px #FDD835, 0 0 20px #FFEB3B, 0 0 30px #FFC107;
+      -webkit-text-fill-color: transparent;
+    }
+    50% {
+      text-shadow: 0 0 20px #FDD835, 0 0 40px #FFEB3B, 0 0 60px #FFC107;
+      -webkit-text-fill-color: transparent;
+    }
+    100% {
+      text-shadow: 0 0 10px #FDD835, 0 0 20px #FFEB3B, 0 0 30px #FFC107;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+  
