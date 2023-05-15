@@ -14,3 +14,8 @@ Light up on hover for Hero section header
 ### Technologies used
 
 I built this project using basic HTML, CSS, JS and Bootstrap
+
+### Deployed site
+
+https://solar-garden-light.netlify.app/
+
