@@ -70,9 +70,33 @@ section {
 	scroll-padding-top: 30px;
 }
 
-nav {
-	/* height: 0.5rem; */
+/* Mobile devices */
+@media (max-width: 320px) {
+	picture {
+		display: block;
+		max-width: 100%;
+		height: auto;
+	}
 }
+
+/* Tablets */
+@media (min-width: 321px) and (max-width: 768px) {
+	picture {
+		display: block;
+		max-width: 100%;
+		height: auto;
+	}
+}
+
+/* Computers */
+@media (min-width: 769px) and (max-width: 1920px) {
+	picture {
+		display: block;
+		max-width: 100%;
+		height: auto;
+	}
+}
+
 /* Earthy tones theme 
   Olive green #556B2F
   Rust brown #8B3A3A
