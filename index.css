@@ -1,84 +1,95 @@
 /* Image Slider */
 .slider {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    overflow: hidden;
-    margin-top: 40px;
-    margin-bottom: 40px;
-  }
-  
-  .slide {
-    display: none;
-    flex-shrink: 0;
-    width: 100%;
-    text-align: center;
-  }
-  
-  .slide.active {
-    display: block;
-  }
-  
-  .slide img {
-    border-radius: 50%;
-    margin-bottom: 20px;
-  }
-  
-  .customer-name {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  .customer-review {
-    font-size: 18px;
-    margin-bottom: 20px;
-  }
-  
-  .rating {
-    margin-bottom: 20px;
-  }
-  
-  .rating i {
-    font-size: 24px;
-    color: #ffc
-  }  
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	overflow: hidden;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
 
-  .payment-icon {
-    max-width: 50px;
-    max-height: 50px;
-  }
+.slide {
+	display: none;
+	flex-shrink: 0;
+	width: 100%;
+	text-align: center;
+}
 
-  .gradient-text {
-    background: linear-gradient(90deg, #FDD835, #FFEB3B, #FFC107);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
+.slide.active {
+	display: block;
+}
 
-  .outline-text {
-    color: #fff;
-    text-shadow: 0 0 10px #FDD835, 0 0 20px #FFEB3B, 0 0 30px #FFC107;
-  }
+.slide img {
+	border-radius: 50%;
+	margin-bottom: 20px;
+}
 
+.customer-name {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
 
-  /* Earthy tones theme 
+.customer-review {
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+.rating {
+	margin-bottom: 20px;
+}
+
+.rating i {
+	font-size: 24px;
+	color: #ffc;
+}
+
+.payment-icon {
+	max-width: 50px;
+	max-height: 50px;
+}
+
+.gradient-text {
+	background: linear-gradient(90deg, #fdd835, #ffeb3b, #ffc107);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.outline-text {
+	color: #fff;
+	text-shadow: 0 0 10px #fdd835, 0 0 20px #ffeb3b, 0 0 30px #ffc107;
+}
+
+html {
+	scroll-snap-type: y mandatory;
+}
+
+section {
+	scroll-snap-align: start;
+	scroll-padding-top: 30px;
+}
+
+nav {
+	/* height: 0.5rem; */
+}
+/* Earthy tones theme 
   Olive green #556B2F
   Rust brown #8B3A3A
   Terra cotta #E2725B
   Deep mustard #B78E3B
   Burnt orange #CC5500 */
-  
-  /* #hero {
+
+/* #hero {
     background-color: #556B2F;
   } */
-  /* #solar-power {
+/* #solar-power {
     background-color: #CC5500;
   } */
-  /* #lighting-effects {
+/* #lighting-effects {
 
   } */
-  /* #easy-insertion {
+/* #easy-insertion {
     background-color: #B78E3B;
   }
   #flexible-shaping {
@@ -88,60 +99,59 @@
     background-color: #B78E3B;
   }
   /* #ip65-waterproofing { */
-  /* #multifunctional {
+/* #multifunctional {
     background-color: #E2725B;
   }
   #purchase {
     background-color: #8eb24f;
   } */
 
-  #light-up-header:hover, #light-up-button:hover  {
-    text-shadow: 0 0 10px #FDD835, 0 0 20px #FFEB3B, 0 0 30px #FFC107;
-    background: linear-gradient(90deg, #FDD835, #FFEB3B, #FFC107);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
+#light-up-header:hover,
+#light-up-button:hover {
+	text-shadow: 0 0 10px #fdd835, 0 0 20px #ffeb3b, 0 0 30px #ffc107;
+	background: linear-gradient(90deg, #fdd835, #ffeb3b, #ffc107);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
 
-  #buy-now-light-up {
-    text-shadow: 0 0 10px #fdd835, 0 0 20px #ffeb3b, 0 0 30px #ffc107;
-    background: linear-gradient(90deg, #fdd835, #ffeb3b, #ffc107);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  #buy-now-light-up:hover {
-    text-shadow: 0 0 40px #fdd835, 0 0 30px #ffeb3b, 0 0 40px #ffc107;
-    background: linear-gradient(90deg, #fdd835, #ffeb3b, #ffc107);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  
+#buy-now-light-up {
+	text-shadow: 0 0 10px #fdd835, 0 0 20px #ffeb3b, 0 0 30px #ffc107;
+	background: linear-gradient(90deg, #fdd835, #ffeb3b, #ffc107);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	transition: all 0.3s ease-in-out;
+}
 
-  #buy-now-light-up {
-    text-shadow: 0 0 10px #FDD835, 0 0 20px #FFEB3B, 0 0 30px #FFC107;
-    background: linear-gradient(90deg, #FDD835, #FFEB3B, #FFC107);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: light-up 4s ease-in-out infinite;
-  }
-  
-  @keyframes light-up {
-    0% {
-      text-shadow: 0 0 10px #FDD835, 0 0 20px #FFEB3B, 0 0 30px #FFC107;
-      -webkit-text-fill-color: transparent;
-    }
-    50% {
-      text-shadow: 0 0 20px #FDD835, 0 0 40px #FFEB3B, 0 0 60px #FFC107;
-      -webkit-text-fill-color: transparent;
-    }
-    100% {
-      text-shadow: 0 0 10px #FDD835, 0 0 20px #FFEB3B, 0 0 30px #FFC107;
-      -webkit-text-fill-color: transparent;
-    }
-  }
-  
+#buy-now-light-up:hover {
+	text-shadow: 0 0 40px #fdd835, 0 0 30px #ffeb3b, 0 0 40px #ffc107;
+	background: linear-gradient(90deg, #fdd835, #ffeb3b, #ffc107);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#buy-now-light-up {
+	text-shadow: 0 0 10px #fdd835, 0 0 20px #ffeb3b, 0 0 30px #ffc107;
+	background: linear-gradient(90deg, #fdd835, #ffeb3b, #ffc107);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: light-up 4s ease-in-out infinite;
+}
+
+@keyframes light-up {
+	0% {
+		text-shadow: 0 0 10px #fdd835, 0 0 20px #ffeb3b, 0 0 30px #ffc107;
+		-webkit-text-fill-color: transparent;
+	}
+	50% {
+		text-shadow: 0 0 20px #fdd835, 0 0 40px #ffeb3b, 0 0 60px #ffc107;
+		-webkit-text-fill-color: transparent;
+	}
+	100% {
+		text-shadow: 0 0 10px #fdd835, 0 0 20px #ffeb3b, 0 0 30px #ffc107;
+		-webkit-text-fill-color: transparent;
+	}
+}
